@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  erb :'hello.html'
+  erb :hello
 end
